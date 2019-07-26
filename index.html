@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Speed Up Drupal deliveries with CICD Pipeline 	</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/material/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+            --color-key: #2099e3;
+        }
+    </style>
+    <!-- PLEASE USE YOUR OWN VERSION -->
+    <script src="https://kit.fontawesome.com/572e4765a4.js"></script>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>Speed Up Drupal 8 deliveries with CICD Pipeline 	</h1>
+        <p>Yours, gobinathm.</p>
+    </header>
+
+    <section class="slide" id="cover">
+        <h3>Speed Up Drupal 8 deliveries with CICD Pipeline</h3>
+        <p><i class="fab fa-drupal"></i> <i class="fab fa-twitter"></i> <i class="fab fa-github"></i> gobinathm</p>
+        <figure>
+            <img class="cover" src="pictures/cover.png" alt="Speed Up Drupal deliveries with CICD Pipeline 	">
+            <figcaption class="copyright right white">
+                <a href="http://fiftyfootshadows.net/">GM</a>
+            </figcaption>
+        </figure>
+        <style>
+            #cover h3 {
+                margin: 30px 0 0;
+                color: white;
+                text-align: center;
+                font-size: 50px;
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                color: white;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+            #cover p a {
+                color: white;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Agenda</h2>
+        <ul>
+            <li>DevOps in Drupal</li>
+            <li>Benefits of our Adaptation</li>
+        </ul>
+        <!--p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p-->
+    </section>
+
+    <section class="slide">
+        <h2>Who am I</h2>
+        <ul>
+            <li>Platform Architect / Technical Manager</li>
+            <li>Works in Web / Mobile Application Development, with primary focus being drupal</li>
+            <li>Webmaster in Drupal.org</li>
+            <li>I Mentor New Contributors</li>
+        </ul>
+        <p class="note"><a href="https://www.drupal.org/u/gobinathm"><b><i>gobinathm</i></b></a> everywhere (including D.O)</p>
+    </section>
+
+    <section class="slide">
+        <h2>The LifeCycle</h2>
+        <p>Is this an epic DevOps Life Cycle <a href="#4">Yes</a> atleast in my world atleast 😉</p>
+    </section>
+
+    <section class="slide">
+            <img class="cover" src="pictures/DevOps_v1.jpg" alt="DevOps Life Cycle">
+    </section>
+
+    <section class="slide">
+        <h2>Composer Workflow</h2>
+        <ol>
+            <li>You Don't be a Dependancy Manager leave it to Composer.</li>
+            <li class="next">Special Script to build / patch</li>
+            <li class="next">Alternatively once can use <a href="https://www.phing.info/">phing/phing</a></li>
+            <li class="next">Better to build artificats this way</li>
+            <li class="next">Commit composer.lock to your repo</li>
+        </ol>
+        <p class="note"><a href="https://github.com/gobinathm/drupal-quickstart">D8 Starter Kit</a></p>
+    </section>
+
+    <section class="slide">
+        <h2>Review Stage</h2>
+        <ol>
+            <li>Local: It Start with Local, Yes enforce before commit & Save time.
+                <ul>
+                    <li>One easy way to achieve is <a href="https://github.com/phpro/grumphp">grumphp</a></li>
+                    <li>Alternative is Custom GIT Hooks</li>
+                </ul>
+            </li>
+            <li>Server: Sonarqube, quality scan
+                <ul>
+                    <li>Use <a href="https://www.sonarlint.org/">sonarlint</a> IDE Extension & save build times.</li>
+                </ul>
+            </li>
+            <li>PHPUnit</li>
+            <li><a href="http://behat.org/en/latest/#">Behat</a></li>
+            <li><a href="https://developers.google.com/web/tools/lighthouse/">lighthouse</a>, automated webpage audit tool</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>PreDeploy</h2>
+        <ol>
+            <li>Save Time by page screenshot by leveraging tools like applitools & saucelabs.</li>
+            <li>Performance Testing with JMeter (Or) Blazemeter automation</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>PostDeploy</h2>
+        <ol>
+            <li>screenshot by leveraging tools like applitools & saucelabs for comparision.</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h3 class="shout shrink">Q & A</h3>
+    </section>
+
+    <footer class="badge">
+        <a href="https://github.com/gobinathm/drupal-quickstart">Fork me on GitHub</a>
+    </footer>
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.min.js"></script>
+    <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
